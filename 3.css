@@ -1,0 +1,256 @@
+h2 {
+	font-size: 35px;
+	font-family: Courier;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: Courier;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: Courier;
+}
+
+h1 {
+	font-size: 15px;
+	font-family: amaze;
+}
+
+.f {
+	font-size: 25px;
+	font-family: Courier;
+	text-indent: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: #4CAF50; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+
+#grad1 {
+    height: 8000px;
+    background: #8DD7FF; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, #8DD7FF, #53FFCD); /* Standard syntax (must be last) */
+}
+
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 40%;
+  width: 70%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid #6678b1;
+  padding: 10px 8px;
+}
+td {
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {
+  color: #6699ff;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
